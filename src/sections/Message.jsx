@@ -42,7 +42,7 @@ const Message = () => {
       delay: 1,
       scrollTrigger: {
         trigger: ".msg-text-scroll",
-        start: "top 100%",
+        start: "top 150%",
       },
     });
     revealTl.to(".msg-text-scroll", {

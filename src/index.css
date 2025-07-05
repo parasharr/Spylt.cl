@@ -282,3 +282,10 @@ body::-webkit-scrollbar {
     transform: rotate(360deg);
   }
 }
+#smooth-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+#smooth-content {
+  will-change: transform;
+}
